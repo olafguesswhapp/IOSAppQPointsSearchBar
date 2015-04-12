@@ -14,6 +14,7 @@
 		906C53221AD94A8700EC0CF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906C53211AD94A8700EC0CF0 /* Images.xcassets */; };
 		906C53251AD94A8700EC0CF0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 906C53231AD94A8700EC0CF0 /* LaunchScreen.xib */; };
 		906C53311AD94A8700EC0CF0 /* QPointsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906C53301AD94A8700EC0CF0 /* QPointsAppTests.swift */; };
+		906C533B1AD94F7600EC0CF0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906C533A1AD94F7600EC0CF0 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		906C532A1AD94A8700EC0CF0 /* QPointsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QPointsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		906C532F1AD94A8700EC0CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		906C53301AD94A8700EC0CF0 /* QPointsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPointsAppTests.swift; sourceTree = "<group>"; };
+		906C533A1AD94F7600EC0CF0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				906C53171AD94A8700EC0CF0 /* AppDelegate.swift */,
 				906C531C1AD94A8700EC0CF0 /* ViewController.swift */,
+				906C533A1AD94F7600EC0CF0 /* DetailViewController.swift */,
 				906C531E1AD94A8700EC0CF0 /* Main.storyboard */,
 				906C53211AD94A8700EC0CF0 /* Images.xcassets */,
 				906C53231AD94A8700EC0CF0 /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 				906C531D1AD94A8700EC0CF0 /* ViewController.swift in Sources */,
 				906C531B1AD94A8700EC0CF0 /* QPointsApp.xcdatamodeld in Sources */,
 				906C53181AD94A8700EC0CF0 /* AppDelegate.swift in Sources */,
+				906C533B1AD94F7600EC0CF0 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
